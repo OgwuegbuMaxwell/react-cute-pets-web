@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+}
+
+.app {
+  background-color: #fafafa;
+}
+
+.app_posts {
+  padding: 20px;
+}
+
+
+.app_header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+  border-bottom: 1px solid lightgrey;
+  object-fit: contain;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.app_header_image {
+  object-fit: contain;
+  width: 80px;
+}
+
+
+.no-posts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;  /* This height ensures it centers vertically within a typical viewport, adjust as needed */
+  color: #666;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #f0f0f0;  /* Light grey background */
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);  /* Subtle shadow for depth */
+}
